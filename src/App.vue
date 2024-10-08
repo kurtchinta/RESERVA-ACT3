@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-app id="app" class="wrapper">
     <v-app-bar app class="header">
       <v-toolbar-title class="text-center title-text">
@@ -94,10 +95,17 @@
         </v-col>
       </v-row>
     </v-container>
+=======
+  <v-app>
+    <v-main>
+      <ACT3/>
+    </v-main>
+>>>>>>> 73c24a568ce7bce3950e283ad089c0b44366cc75
   </v-app>
 </template>
 
 <script>
+<<<<<<< HEAD
 export default {
   data() {
     return {
@@ -197,3 +205,17 @@ export default {
 }
 
 </style>
+=======
+import ACT3 from './components/ACT3.vue'
+
+export default {
+  name: 'App',
+
+  components: {
+    ACT3,
+  },
+
+  data: () => ({}),
+}
+</script>
+>>>>>>> 73c24a568ce7bce3950e283ad089c0b44366cc75
